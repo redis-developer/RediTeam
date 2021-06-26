@@ -10,10 +10,10 @@
     "quick_deploy": "true", 
     "deploy_buttons": [
         {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/greenearth.git" 
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/rediteam.git" 
         },
         {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/greenearth.git" 
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/rediteam.git" 
         }
     ],
     
