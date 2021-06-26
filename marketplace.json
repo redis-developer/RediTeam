@@ -7,8 +7,16 @@
     "repo_url": "https://github.com/redis-developer/RediTeam",
     "download_url": "https://github.com/redis-developer/RediTeam/archive/refs/heads/master.zip",
     "hosted_url": "http://rediteam.herokuapp.com/",
-    "quick_deploy": "",
-    "deploy_buttons": [],
+    "quick_deploy": "true", 
+    "deploy_buttons": [
+        {
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/greenearth.git" 
+        },
+        {
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/greenearth.git" 
+        }
+    ],
+    
     "language": ["Javascript"],
     "redis_commands": [],
     "redis_features": ["caching"],
@@ -18,4 +26,4 @@
     "special_tags": ["Hackathon"],
     "verticals": ["Technology", "Human Resources", "HR"],
     "markdown": "https://raw.githubusercontent.com/redis-developer/RediTeam/master/README.md"
-}
+ }
