@@ -5,6 +5,7 @@
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/RediTeam",
+   "preview_image_url": "https://raw.githubusercontent.com/redis-developer/rediteam/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/RediTeam/archive/refs/heads/master.zip",
     "hosted_url": "http://rediteam.herokuapp.com/",
     "quick_deploy": "false", 
