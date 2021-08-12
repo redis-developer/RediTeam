@@ -23,7 +23,7 @@
     "redis_features": ["caching"],
     "redis_modules": ["RedisGraph", "RediSearch"],
     "app_image_urls": ["https://github.com/redis-developer/RediTeam/blob/master/client/src/assets/rediteamAssociateScreenshot.JPG?raw=true", "https://github.com/redis-developer/RediTeam/blob/master/client/src/assets/rediteamManagerScreenshot.JPG?raw=true"],
-    "youtube_url": "https://www.youtube.com/watch?v=9Fp_HP3nKgk",
+    "youtube_url": "https://www.youtube.com/watch?v=tPQ7H1j-MmY",
     "special_tags": ["Hackathon"],
     "verticals": ["Technology", "Human Resources", "HR"],
     "markdown": "https://raw.githubusercontent.com/redis-developer/RediTeam/master/README.md"
