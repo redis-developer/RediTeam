@@ -20,11 +20,11 @@
     
     "language": ["Javascript"],
     "redis_commands": [],
-    "redis_features": ["caching"],
+    "redis_features": ["Caching"],
     "redis_modules": ["RedisGraph", "RediSearch"],
     "app_image_urls": ["https://github.com/redis-developer/RediTeam/blob/master/client/src/assets/rediteamAssociateScreenshot.JPG?raw=true", "https://github.com/redis-developer/RediTeam/blob/master/client/src/assets/rediteamManagerScreenshot.JPG?raw=true"],
     "youtube_url": "https://www.youtube.com/watch?v=tPQ7H1j-MmY",
     "special_tags": ["Hackathon"],
-    "verticals": ["Technology", "Human Resources", "HR"],
+    "verticals": ["Others"],
     "markdown": "https://raw.githubusercontent.com/redis-developer/RediTeam/master/README.md"
  }
