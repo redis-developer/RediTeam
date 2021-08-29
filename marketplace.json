@@ -1,13 +1,13 @@
 {
     "app_name": "RediTeam",
     "description": "A RedisConf 2021 Hackathon Project that solves for the ineffiencies around internal transfers within a company",
-    "rank": "101",
+    "rank": 101,
     "type": "Full App",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/RediTeam",
    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/rediteam/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/RediTeam/archive/refs/heads/master.zip",
-    "hosted_url": "http://rediteam.herokuapp.com/",
+    "hosted_url": "",
     "quick_deploy": "false", 
     "deploy_buttons": [
         {
