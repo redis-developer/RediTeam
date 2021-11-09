@@ -1,6 +1,6 @@
 {
     "app_name": "RediTeam",
-    "description": "A RedisConf 2021 Hackathon Project that solves for the ineffiencies around internal transfers within a company",
+    "description": "How to build an Employee Transfer Management Tool using Redis",
     "rank": 101,
     "type": "Full App",
     "contributed_by": "Community",
