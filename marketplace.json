@@ -8,20 +8,20 @@
    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/rediteam/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/RediTeam/archive/refs/heads/master.zip",
     "hosted_url": "",
-    "quick_deploy": "false", 
+    "quick_deploy": "false",
     "deploy_buttons": [
         {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/rediteam.git" 
+            "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/rediteam.git"
         },
         {
-            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/rediteam.git" 
+            "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/rediteam.git"
         }
     ],
-    
+
     "language": ["Javascript"],
     "redis_commands": [],
-    "redis_features": ["Caching"],
-    "redis_modules": ["RedisGraph", "RediSearch"],
+    "redis_use_cases": ["Caching"],
+    "redis_features": ["Graph", "Search and Query"],
     "app_image_urls": ["https://github.com/redis-developer/RediTeam/blob/master/client/src/assets/rediteamAssociateScreenshot.JPG?raw=true", "https://github.com/redis-developer/RediTeam/blob/master/client/src/assets/rediteamManagerScreenshot.JPG?raw=true"],
     "youtube_url": "https://www.youtube.com/watch?v=tPQ7H1j-MmY",
     "special_tags": ["Hackathon"],
