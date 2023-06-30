@@ -51,7 +51,7 @@ A RedisConf 2021 Hackathon Project that solves for the ineffiencies around inter
 * The Req will be published with the hiring manager name, team, and a unique Req ID
 
 ### Req Workflow
-  
+
 * Currently there is a `Submit (Associate) -> Accept (Hiring Manager)` model for completing an internal transfer
 * Future state it should be `Submit (Associate) -> Accept (Hiring Manager) -> Accept Acceptance (Associate) -> Accept Transfer (Current Manager)`
 * This would require that all parties agree on the transfer before it is completed
@@ -62,8 +62,8 @@ A RedisConf 2021 Hackathon Project that solves for the ineffiencies around inter
 - ReactJS
 - Material UI
 - Redis
-- RedisSearch
-- RedisGraph
+- Redis Search
+- Redis Graph
 
 ![Screenshot](https://github.com/am2367/RediTeam/blob/master/client/src/assets/technologies.PNG?raw=true)
 
@@ -79,7 +79,7 @@ A RedisConf 2021 Hackathon Project that solves for the ineffiencies around inter
       * id - unique id
       * email
       * password
-* RedisGraph
+* Redis Graph
   * `:Employee` - A registered user profile for an associate
     * Properties
       * id - User id
@@ -115,7 +115,7 @@ A RedisConf 2021 Hackathon Project that solves for the ineffiencies around inter
       * cost - Can be 75000, 100000, 150000, or 200000
   * `:ProgammingLanguage`
     * Properties
-      * name - Name of the programming language 
+      * name - Name of the programming language
   * `:OfficeLocation`
     * Properties
       * name - Name of the office location
@@ -132,12 +132,12 @@ A RedisConf 2021 Hackathon Project that solves for the ineffiencies around inter
       * programmingLanguages
       * description
 
-## RedisGraph
+## Redis Graph
 
 ![Screenshot](https://github.com/redis-developer/RediTeam/blob/master/client/src/assets/graph_legend.JPG?raw=true)
 ![Screenshot](https://github.com/redis-developer/RediTeam/blob/master/client/src/assets/graph.png?raw=true)
 
-## RedisGraph Relationships
+## Redis Graph Relationships
 
 - `(:Employee)-[:Has_Skill]->(:ProgrammingLanguage)`
 - `(:Employee)-[:Is_Associate_Level]->(:AssociateLevel)`
@@ -159,7 +159,7 @@ A RedisConf 2021 Hackathon Project that solves for the ineffiencies around inter
   * Returns 'API Healthy' if API is reachable
 - `/api/redis_health`
   * GET
-  * Returns RedisGraph and RedisSearch connection status (single connection if local)
+  * Returns Redis Graph and Redis Search connection status (single connection if local)
 - `/api/checkSession`
   * GET
   * Returns 'Active' if currently logged in user's session is active
@@ -202,7 +202,7 @@ A RedisConf 2021 Hackathon Project that solves for the ineffiencies around inter
   * Returns team members of logged in user if successful
 - `/api/team/manager`
   * GET
-  * Returns manager of logged in user if successful 
+  * Returns manager of logged in user if successful
 - `/api/team/req`
   * POST
   * Params:
@@ -256,7 +256,7 @@ A RedisConf 2021 Hackathon Project that solves for the ineffiencies around inter
     * reqId (Int)
     * id (Int)
   * Returns 'Req Accepted!' if successful
-  
+
 ## Running it locally
 ### Prerequisites
 
@@ -287,7 +287,7 @@ The below fake data is automatically loaded into the application during step 5 o
 [
   {
   "login" :   {"email" : "adrian.yu@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 1,
                   "name" : "Adrian Yu",
                   "firstName" : "Adrian",
@@ -299,9 +299,9 @@ The below fake data is automatically loaded into the application during step 5 o
                   "manager" : "Adrian Yu",
                   "isManager" : true
               }
-  }, 
+  },
   {"login" :   {"email" : "ardell.hyer@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 2,
                   "name" : "Ardell Hyer",
                   "firstName" : "Ardell",
@@ -315,7 +315,7 @@ The below fake data is automatically loaded into the application during step 5 o
               }
   },
   {"login" :   {"email" : "ranee.dubreuil@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 3,
                   "name" : "Ranee Dubreuil",
                   "firstName" : "Ranee",
@@ -329,7 +329,7 @@ The below fake data is automatically loaded into the application during step 5 o
               }
   },
   {"login" :   {"email" : "camille.crosbie@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 4,
                   "name" : "Camille Crosbie",
                   "firstName" : "Camille",
@@ -343,7 +343,7 @@ The below fake data is automatically loaded into the application during step 5 o
               }
   },
   {"login" :   {"email" : "maximo.radford@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 5,
                   "name" : "Maximo Radford",
                   "firstName" : "Maximo",
@@ -357,7 +357,7 @@ The below fake data is automatically loaded into the application during step 5 o
               }
   },
   {"login" :   {"email" : "sol.heckel@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 6,
                   "name" : "Sol Heckel",
                   "firstName" : "Sol",
@@ -371,7 +371,7 @@ The below fake data is automatically loaded into the application during step 5 o
               }
   },
   {"login" :   {"email" : "giuseppina.gobin@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 7,
                   "name" : "Giuseppina Gobin",
                   "firstName" : "Giuseppina",
@@ -385,7 +385,7 @@ The below fake data is automatically loaded into the application during step 5 o
               }
   },
   {"login" :   {"email" : "chi.romanik@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 8,
                   "name" : "Chi Romanik",
                   "firstName" : "Chi",
@@ -399,7 +399,7 @@ The below fake data is automatically loaded into the application during step 5 o
               }
   },
   {"login" :   {"email" : "denny.castaneda@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 9,
                   "name" : "Denny Castaneda",
                   "firstName" : "Denny",
@@ -413,7 +413,7 @@ The below fake data is automatically loaded into the application during step 5 o
               }
   },
   {"login" :   {"email" : "linnie.laroque@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 10,
                   "name" : "Linnie Laroque",
                   "firstName" : "Linnie",
@@ -427,7 +427,7 @@ The below fake data is automatically loaded into the application during step 5 o
               }
   },
   {"login" :   {"email" : "john.smith@test.com", "password" : "Abc123!"},
-  "profile" : {	
+  "profile" : {
                   "id" : 11,
                   "name" : "John Smith",
                   "firstName" : "John",
@@ -440,7 +440,7 @@ The below fake data is automatically loaded into the application during step 5 o
                   "isManager" : false
               }
   }]
-                        
+
 # Fake Reqs
 
 [
